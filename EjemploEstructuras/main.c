@@ -13,6 +13,7 @@ typedef struct
 
 int main()
 {
+    sAlumno listadoAlumnos[5];
 
     return 0;
 }
