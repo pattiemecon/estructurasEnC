@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1524260475 source:c:\test\pattie\estructurasenc\ejemploestructuras\main.c
+	<stdio.h>
+	<stdlib.h>
+	"..\..\Funciones\funciones.h"
+
+1523832516 c:\test\pattie\funciones\funciones.h
+
+1523832516 source:c:\test\pattie\funciones\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
