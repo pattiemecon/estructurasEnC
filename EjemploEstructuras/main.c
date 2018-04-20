@@ -34,7 +34,8 @@ int main()
     }
 
     listadoAlumnos[0] = pedirAlumno();
-    mostrarAlumno(listadoAlumnos[0]);
+    //mostrarAlumno(listadoAlumnos[0]);
+    mostrarListado(listadoAlumnos, TAM);
 
     return 0;
 }
@@ -95,4 +96,17 @@ int buscarLugarLibre(sAlumno alumnos[], int cantidadElementos)
     }
 
     return indiceLibre;
+}
+
+void mostrarListado(sAlumno alumnos[], int cantidadElementos)
+{
+    int i;
+
+    for(i = 0; i < cantidadElementos; i++)
+    {
+        if(alumnos[i].estado != 0)
+        {
+            mostrarAlumno(alumnos[i]);
+        }
+    }
 }
