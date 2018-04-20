@@ -110,3 +110,20 @@ void mostrarListado(sAlumno alumnos[], int cantidadElementos)
         }
     }
 }
+
+void ordenarPorPromedio(sAlumno[] alumnos, int cantidadElementos)
+{
+    int i;
+    int j;
+
+    for(i = 0; i < cantidadElementos - 1; i++)
+    {
+        if(alumnos[i].estado != 0)
+        {
+            for(j = i + 1; j < cantidadElementos; j++)
+            {
+                if(alumnos[j].estado != 0 &&)
+            }
+        }
+    }
+}
